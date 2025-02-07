@@ -5,20 +5,23 @@ let router = express.Router();
 const pino = require("pino");
 const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
-*SESSION GENERATED SUCCESSFULY* ✅
+*𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐘* ✅
+______________________________________
+╔════◇
+> *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
+https://github.com/Nadeenpoorna-lkz/NADEEN-MD
 
-*Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/ULTRA-MD
+> *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
+https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 
-*Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/GlobalBotInc
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
+> *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
+https://www.youtube.com/@NADEEN-MD
 
+> NADEEN-MD MADE BY *NADEEN POORNA*
 
-*Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/GlobalTechInfo
-
-*ULTRA-MD--WHATTSAPP-BOT* 🥀
+> *NADEEN-WHATTSAPP-BOT* 🥀
+╚════════════════════════╝
+______________________________________
 `;
 
 const { upload } = require('./mega');
@@ -92,6 +95,16 @@ router.get('/', async (req, res) => {
 
                         let msgsss = await Smd.sendMessage(user, { text: Scan_Id });
                         await Smd.sendMessage(user, { text: MESSAGE }, { quoted: msgsss });
+                         contextInfo: {
+                           mentionedJid: ['94711451319@s.whatsapp.net'], // specify mentioned JID(s) if any
+                        groupMentions: [],
+                          forwardingScore: 1,
+                             isForwarded: false,
+                              forwardedNewsletterMessageInfo: {
+                              newsletterJid: '120363304606757133@newsletter',
+                              newsletterName: "NADEEN-MD™️",
+                              serverMessageId: 999
+    }
                         await delay(1000);
                         try { await fs.emptyDirSync(__dirname + '/auth_info_baileys'); } catch (e) {}
 
