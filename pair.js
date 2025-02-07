@@ -95,16 +95,6 @@ router.get('/', async (req, res) => {
 
                         let msgsss = await Smd.sendMessage(user, { text: Scan_Id });
                         await Smd.sendMessage(user, { text: MESSAGE }, { quoted: msgsss });
-                         contextInfo: {
-                           mentionedJid: ['94711451319@s.whatsapp.net'], // specify mentioned JID(s) if any
-                        groupMentions: [],
-                          forwardingScore: 1,
-                             isForwarded: false,
-                              forwardedNewsletterMessageInfo: {
-                              newsletterJid: '120363304606757133@newsletter',
-                              newsletterName: "NADEEN-MD™️",
-                              serverMessageId: 999
-    }
                         await delay(1000);
                         try { await fs.emptyDirSync(__dirname + '/auth_info_baileys'); } catch (e) {}
 
