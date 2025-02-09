@@ -17,6 +17,9 @@ https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 > *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
 https://www.youtube.com/@NADEEN-MD
 
+> *Contact Owner* 👑️
+94711451319
+
 > NADEEN-MD MADE BY *NADEEN POORNA*
 
 > *NADEEN-WHATTSAPP-BOT* 🥀
