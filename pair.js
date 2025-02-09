@@ -8,21 +8,21 @@ const MESSAGE = process.env.MESSAGE || `
 *𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐘* ✅
 ______________________________________
 ╔════◇
-> *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
+> 🌟 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
 https://github.com/Nadeenpoorna-lkz/NADEEN-MD
 
-> *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
+> 🗡️ *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 
 https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 
-> *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
+> 🧨 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 
 https://www.youtube.com/@NADEEN-MD
 
-> *Contact Owner* 👑️
+> 👑️ *Contact Owner* 
 94711451319
 
-> NADEEN-MD MADE BY *NADEEN POORNA*
+> 🧑‍💻 NADEEN-MD BY *NADEEN POORNA*
 
-> *NADEEN-WHATTSAPP-BOT* 🥀
+👾 *©NADEEN-WHATTSAPP-BOT* 👾
 ╚════════════════════════╝
 ______________________________________
 `;
